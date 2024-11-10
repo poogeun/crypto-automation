@@ -28,6 +28,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.mysql:mysql-connector-j'
+    runtimeOnly 'com.h2database:h2'
 
     implementation 'com.slack.api:slack-api-client:1.28.0'
     implementation 'com.slack.api:slack-api-model:1.28.0'
